@@ -44,7 +44,7 @@ public class PrimaryDBConfiguration {
             @Qualifier("primaryDataSource") DataSource primaryDataSource) {
         return builder
                 .dataSource(primaryDataSource())
-                .packages(PrimaryBook.class)
+                .packages("com.datagrokr.multitenant.entity.primary")
                 .build();
     }
 

@@ -22,5 +22,5 @@ public class PrimaryUser {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer user_id;
-    private String username;
+    private String user_name;
 }

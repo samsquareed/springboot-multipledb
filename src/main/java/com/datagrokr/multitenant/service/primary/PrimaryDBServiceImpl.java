@@ -1,2 +1,4 @@
-package com.datagrokr.multitenant.service.primary.secondary;public class PrimaryDBServiceImpl {
+package com.datagrokr.multitenant.service.primary;
+
+public class PrimaryDBServiceImpl {
 }

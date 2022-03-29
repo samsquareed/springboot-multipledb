@@ -21,7 +21,7 @@ public class PrimaryBook {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer book_id;
-    private String book_name; 
+    private String bookname;
     private String genre;
     private String author;
 }

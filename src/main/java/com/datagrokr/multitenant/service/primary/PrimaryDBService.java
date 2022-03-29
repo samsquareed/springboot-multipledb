@@ -1,2 +1,4 @@
-package com.datagrokr.multitenant.service.primary;public interface PrimaryDBService {
+package com.datagrokr.multitenant.service.primary;
+
+public interface PrimaryDBService {
 }
