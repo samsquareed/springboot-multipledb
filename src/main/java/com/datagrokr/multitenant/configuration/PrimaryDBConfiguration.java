@@ -1,6 +1,8 @@
 package com.datagrokr.multitenant.configuration;
 
 import javax.sql.DataSource;
+
+import com.datagrokr.multitenant.entity.primary.PrimaryBook;
 import com.zaxxer.hikari.HikariDataSource;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
@@ -42,7 +44,7 @@ public class PrimaryDBConfiguration {
             @Qualifier("primaryDataSource") DataSource primaryDataSource) {
         return builder
                 .dataSource(primaryDataSource())
-                .packages("com.datagrokr.multitenant.entity.primary")
+                .packages(PrimaryBook.class)
                 .build();
     }
 
