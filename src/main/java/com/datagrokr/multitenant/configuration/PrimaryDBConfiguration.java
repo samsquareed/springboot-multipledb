@@ -1,10 +1,7 @@
 package com.datagrokr.multitenant.configuration;
 
 import javax.sql.DataSource;
-
 import com.zaxxer.hikari.HikariDataSource;
-
-import org.hibernate.jpa.boot.spi.EntityManagerFactoryBuilder;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
